@@ -22,7 +22,13 @@ All in all, Week 1 was centered on establishing our foundation — finalizing th
 
 ## Repository Setup and Documentation
 
-hi **hello**
+After completing the initial brainstorming and planning phase, our group proceeded to organize the project repository and set up its structure. We wanted to make sure our workspace was organized and easy to navigate begore starting the actual development. We arranged the repository in a way that each part of the project would have its proper place and purpose. 
+
+We decided to create four main directories: **Proposals**, **Reports**, **Final Project**, and **Docs**. Each served a specific function—Proposals for initial project concepts, Reports for weekly updates, Final Project for the implementation of our Python library, and Docs for documentation and reference materials. We also added important files such as **.gitignore**, **.gitattributes**, and the **MIT License** to ensure proper project setup and adherence to open-source standards.
+
+The **README.md file** was then updated to include the project’s title, objective, and contributor details. We wanted it to clearly explain what the project was about and serve as a quick guide for anyone viewing our repository.
+
+Overall, the setup process went smoothly. By the end of the week, we successfully built a structured and well-documented repository that laid the foundation for the upcoming coding and testing phases.
 
 ## Reflection
 
