@@ -20,6 +20,18 @@ All in all, Week 1 was centered on establishing our foundation — finalizing th
 
 ## System Design/UML Part
 
+For our system design phase, we focused on building a clear and organized structure for DataHabit using OOP principles. This stage involved designing how the different parts of the system would interact with one another, ensuring that our program could efficiently handle, analyze, and visualize student task data. To achieve this, we created a UML class diagram that visually represents the relationships between the main components of our project.
+
+Our design consists of three main classes: TaskData, BehaviorAnalyzer, and Visualizer. Each class was carefully planned to perform a specific role while maintaining modularity and simplicity.
+
+The TaskData class serves as the foundation of the system. It handles the basic data structure, including student IDs, task names, and submission timestamps. This class also contains essential methods for parsing timestamps and calculating submission delays, which are crucial for later analysis. Since this class manages the raw data, it was designed to be reusable and extendable for future updates or additional features.
+
+The BehaviorAnalyzer class inherits from TaskData, meaning it extends the base class to include behavior classification features. It is responsible for interpreting submission trends and identifying student behavior types such as “Procrastinator” or “Consistent Worker.” By using inheritance, we avoided code repetition and allowed the analyzer to directly use the data and methods from TaskData, making the design cleaner and more efficient.
+
+The Visualizer class, on the other hand, was implemented through composition. It works by taking the analyzed data from the BehaviorAnalyzer class and transforming it into visual outputs like graphs and summaries. This helps present the patterns more clearly and allows users to easily understand the results of the analysis. The decision to use composition instead of inheritance was intentional, as it keeps visualization functions separate from data analysis, following the OOP principle of single responsibility.
+
+Overall, our UML diagram shows how these classes connect and work together — inheritance between TaskData and BehaviorAnalyzer, and composition between BehaviorAnalyzer and Visualizer. We designed it this way to ensure flexibility, scalability, and clarity in our system’s flow. Each class handles a specific part of the process: data collection, behavior analysis, and visualization. This structured design not only keeps the system organized but also makes it easier to maintain and expand as we continue developing DataHabit.
+
 ## Repository Setup and Documentation
 
 After completing the initial brainstorming and planning phase, our group proceeded to organize the project repository and set up its structure. We wanted to make sure our workspace was organized and easy to navigate before starting the actual development. We arranged the repository in a way that each part of the project would have its proper place and purpose. 
