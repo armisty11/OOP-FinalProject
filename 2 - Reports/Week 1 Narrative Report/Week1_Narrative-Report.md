@@ -44,3 +44,13 @@ Overall, the setup process went smoothly. By the end of the week, we successfull
 
 ## Reflection
 
+On our first week, we confidently say that our group made an excellent start in building the foundation for **DataHabit**. This initial phase was not just about outlining ideas, but about learning how to collaborate effectively and align our individual strengths toward a shared goal. The brainstroning sessions reminded us how valuable teamwork can be when everyone contributes thoughtfully. Each member's ideas were diverse yet insightful, which made decision making both exciting and challenging. Still, through open communication and respect for each other's perspectives, we managed to turn our collection input into a clear and unified project plan.
+
+The process of assigning tasks also gave us a sense of direction and accountability. Everyone had a defined role that matched their strength, allowing us to work efficiently without confusion or overlap. We realized that clear task delegation is crucial, especially in a collaboration determines success. The use of **GitHub** and **Messenger** also made our workflow transparent and organized, ensuring that communication and progress tracking remained consistent.
+
+Designing the system architecture and **UML** diagram was another rewarding experience. It gave us a concrete understanding of how our components interact and how **OOP principles** could make our project more maintainable and scalable. Seeing our ideas take shape through structure and logic made the project feel more real and achievable.
+
+
+
+
+
